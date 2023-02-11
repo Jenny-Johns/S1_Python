@@ -1,0 +1,6 @@
+mylist1 = input("Enter some color names with comma separated: ").split(",")
+print("First list:", mylist1)
+mylist2 = input("Enter some color names with comma separated: ").split(",")
+print("Second list:", mylist2)
+color = set(mylist1).difference(set(mylist2))
+print("List of colors containing in list 1 and not in list 2:", list(color))
